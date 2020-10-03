@@ -1,0 +1,34 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.list {
+    color : #fff;
+    width : 91%;
+    background: rgba(204, 67, 67, 0.966);
+    height : 40px;
+    margin : 15px auto;
+    border-radius : 6px;
+}
+.list input {
+    color : #fff;
+    background: rgba(204, 67, 67, 0.966);
+    border : none;
+    outline : none;
+    font-size : 16px;
+}
+.list p {
+    padding : 7px;
+    position: relative;
+}
+.list p span {
+    position: absolute;
+    right : 10px;
+    cursor: pointer;
+}
+.list p span i {
+    margin : 0 5px;
+    font-size: 15px;
+}
